@@ -1,0 +1,42 @@
+// Generated from Expression.tokens by ANTLR 4.5.1
+
+package expressivo.parser;
+
+public class ExpressionTokens {
+    // Token values
+    public static final int T__0 = 1;  // Token for '+'
+    public static final int T__1 = 2;  // Token for '('
+    public static final int T__2 = 3;  // Token for ')'
+    public static final int NUMBER = 4; // Token for NUMBER
+    public static final int SPACES = 5; // Token for SPACES
+    
+    // Assigning values to specific tokens
+    public static final int PLUS = 1;   // '+' token
+    public static final int OPEN_PAREN = 2;  // '(' token
+    public static final int CLOSE_PAREN = 3; // ')' token
+    
+    // Array to represent literal names for token values
+    public static final String[] tokenNames = {
+        "<INVALID>",     // 0
+        "'+'",           // 1
+        "'('",           // 2
+        "')'",           // 3
+        "NUMBER",        // 4
+        "SPACES"         // 5
+    };
+    
+    // Array to represent symbolic names for token values
+    public static final String[] symbolicNames = {
+        null,           // 0
+        "PLUS",         // 1
+        "OPEN_PAREN",   // 2
+        "CLOSE_PAREN",  // 3
+        "NUMBER",       // 4
+        "SPACES"        // 5
+    };
+    
+    // Array to represent token literals
+    public static final String[] literalNames = {
+        null, "'+'", "'('", "')'", null, null
+    };
+}

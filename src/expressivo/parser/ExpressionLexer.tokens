@@ -1,0 +1,37 @@
+// Generated from ExpressionLexer.tokens by ANTLR 4.5.1
+
+package expressivo.parser;
+
+public class ExpressionLexerTokens {
+    // Token values and symbolic names
+    public static final int T__0 = 1;   // '+' token
+    public static final int T__1 = 2;   // '(' token
+    public static final int T__2 = 3;   // ')' token
+    public static final int NUMBER = 4; // NUMBER token
+    public static final int SPACES = 5; // SPACES token
+
+    // Token mappings to string literals
+    public static final String[] tokenNames = {
+        "<INVALID>",      // 0
+        "'+'",            // 1
+        "'('",            // 2
+        "')'",            // 3
+        "NUMBER",         // 4
+        "SPACES"          // 5
+    };
+
+    // Symbolic names (representing token types)
+    public static final String[] symbolicNames = {
+        null,             // 0
+        "PLUS",           // 1
+        "OPEN_PAREN",     // 2
+        "CLOSE_PAREN",    // 3
+        "NUMBER",         // 4
+        "SPACES"          // 5
+    };
+
+    // Literal names (representing actual characters or strings for tokens)
+    public static final String[] literalNames = {
+        null, "'+'", "'('", "')'", null, null
+    };
+}
